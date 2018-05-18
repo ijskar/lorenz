@@ -11,7 +11,7 @@ void setup() {
   x = 1;
   y = 1;
   z = 1;
-  dt  = 0.1;
+  dt  = 0.01;
   colorMode(HSB);
   size(800, 800, P3D);
   cam = new PeasyCam(this, 500);
